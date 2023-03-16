@@ -1,0 +1,17 @@
+﻿<Window x:Class="Hotel.Window6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hotel"
+        mc:Ignorable="d"
+        Title="Window6" Height="450" Width="800">
+    <Grid>
+        <Image Source="/1637350496_6-gamerwall-pro-p-temno-sinii-abstraktnii-fon-krasivie-oboi-6.jpg" Height="600" />
+        <Label Content="Обслуживание номеров" HorizontalAlignment="Left" Foreground="White"  FontSize="30"
+               Margin="215,97,0,0" VerticalAlignment="Top"/>
+        <DockPanel HorizontalAlignment="Left" Height="100" Background="White" LastChildFill="False" Margin="234,164,0,0" VerticalAlignment="Top" Width="314"/>
+        <Button Content="Вернуться в профиль" Click="Button_Click" Background="White" Foreground="#4682B4" FontSize="15" 
+                HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="168"/>
+    </Grid>
+</Window>
